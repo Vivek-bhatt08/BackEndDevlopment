@@ -1,0 +1,15 @@
+.btn{
+    margin: 20px;
+
+}
+.js{
+    background-color: rebeccapurple;
+}
+/* #mydiv{
+    background-color: salmon;
+    width: 100px;
+    height: 100px;
+} */
+.hide{
+    display: none;
+}
