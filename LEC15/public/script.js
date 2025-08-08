@@ -7,7 +7,7 @@ function addUser(email,password){
         email:email,
         password:password
     }
-    fetch("/adduser",{
+    fetch("/adduser",{//agr same jagah pe server nhi hota toh pura path dena hota hai 
         method:"POST",
         body:JSON.stringify(newUser),
         headers:{

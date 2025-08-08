@@ -10,7 +10,6 @@ app.post("/adduser", (req, res) => {
         let password = req.body.password;
         console.log(email, password);
 
-        // Create a newUser object from request data
         let newUser = {
             email: email,
             password:password
