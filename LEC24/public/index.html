@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div style="display: flex;justify-content: space-around; padding: 50px" >
+            <div>
+                MyblogApp
+            </div>
+            <div style="display: flex; ">
+                <div style="padding: 0px 10px;">
+                    <a href="/">home</a>
+                </div>
+                <div style="padding: 0px 10px;">
+                    <a href="/fetchblogs">allblogs</a>
+                </div>
+                <div style="padding: 0px 10px;">
+                    <a href="/myblogs">myblogs</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>Login form</div>
+            <div>
+                <form action="" id="login-form">
+                    <input type="text" name="email" placeholder="Enter your email" id="login-email">
+                    <input type="text" name="password" placeholder="password" id="login-password"> 
+                    <button>Login</button>
+                </form>
+            </div>
+        </div>
+        <div style="padding-top: 50px;">
+            <div>Signup Form</div>
+            <div>
+                <form action="" method="POST" id="signup-form">
+                    <input type="text" name="username" placeholder="enter username" id="signup-username">
+                    <input type="text" name="email" placeholder="Enter your email" id="signup-email">
+                    <input type="text" name="password" placeholder="password" id="signup-password"> 
+                    <button>Register</button>
+                </form>
+            </div>
+        </div>
+        <div style="padding-top: 50px;">
+            <div>add blogs form</div>
+            <div>
+                <form action="" id="addblog-form">
+                    <input type="text" name="title" placeholder="Enter your title" id="addblog-title">
+                    <input type="text" name="body" placeholder="Enter body" id="addblog-body"> 
+                    <button>addblog</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
